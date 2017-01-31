@@ -13,6 +13,8 @@
 		214BAE6C1E40E6EE0043399C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214BAE6B1E40E6EE0043399C /* Assets.xcassets */; };
 		214BAE6F1E40E6EE0043399C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214BAE6D1E40E6EE0043399C /* LaunchScreen.storyboard */; };
 		214BAE7A1E40E6EE0043399C /* BowlingScoreCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BAE791E40E6EE0043399C /* BowlingScoreCalcTests.swift */; };
+		50AAFF81B6A3F459BB640801 /* Pods_BowlingScoreCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D591677103AD52BA0850C04 /* Pods_BowlingScoreCalc.framework */; };
+		5970E553022C4F0735479DE0 /* Pods_BowlingScoreCalcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78414370A129BDBE5167E12 /* Pods_BowlingScoreCalcTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051C59E1F85AB30632FB937A /* Pods-BowlingScoreCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowlingScoreCalc.release.xcconfig"; path = "Pods/Target Support Files/Pods-BowlingScoreCalc/Pods-BowlingScoreCalc.release.xcconfig"; sourceTree = "<group>"; };
+		0609ACE2689D6E61AB4A17B7 /* Pods-BowlingScoreCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowlingScoreCalcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BowlingScoreCalcTests/Pods-BowlingScoreCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
 		214BAE611E40E6EE0043399C /* BowlingScoreCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowlingScoreCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		214BAE641E40E6EE0043399C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		214BAE661E40E6EE0043399C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		214BAE751E40E6EE0043399C /* BowlingScoreCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingScoreCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214BAE791E40E6EE0043399C /* BowlingScoreCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingScoreCalcTests.swift; sourceTree = "<group>"; };
 		214BAE7B1E40E6EE0043399C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D1ECB278FF284ECACF6BC8 /* Pods-BowlingScoreCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowlingScoreCalc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BowlingScoreCalc/Pods-BowlingScoreCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		3D591677103AD52BA0850C04 /* Pods_BowlingScoreCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BowlingScoreCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78414370A129BDBE5167E12 /* Pods_BowlingScoreCalcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BowlingScoreCalcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0BCBAEE4C96413C30220B5 /* Pods-BowlingScoreCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowlingScoreCalcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BowlingScoreCalcTests/Pods-BowlingScoreCalcTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AAFF81B6A3F459BB640801 /* Pods_BowlingScoreCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5970E553022C4F0735479DE0 /* Pods_BowlingScoreCalcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				214BAE631E40E6EE0043399C /* BowlingScoreCalc */,
 				214BAE781E40E6EE0043399C /* BowlingScoreCalcTests */,
 				214BAE621E40E6EE0043399C /* Products */,
+				DF96E6ABF6D3F09DAAA08697 /* Pods */,
+				8B2B0C25390E26491ADCA20D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = BowlingScoreCalcTests;
 			sourceTree = "<group>";
 		};
+		8B2B0C25390E26491ADCA20D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D591677103AD52BA0850C04 /* Pods_BowlingScoreCalc.framework */,
+				F78414370A129BDBE5167E12 /* Pods_BowlingScoreCalcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF96E6ABF6D3F09DAAA08697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23D1ECB278FF284ECACF6BC8 /* Pods-BowlingScoreCalc.debug.xcconfig */,
+				051C59E1F85AB30632FB937A /* Pods-BowlingScoreCalc.release.xcconfig */,
+				0609ACE2689D6E61AB4A17B7 /* Pods-BowlingScoreCalcTests.debug.xcconfig */,
+				FF0BCBAEE4C96413C30220B5 /* Pods-BowlingScoreCalcTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214BAE7E1E40E6EE0043399C /* Build configuration list for PBXNativeTarget "BowlingScoreCalc" */;
 			buildPhases = (
+				9005E5DFA046D6C0FB276F26 /* [CP] Check Pods Manifest.lock */,
 				214BAE5D1E40E6ED0043399C /* Sources */,
 				214BAE5E1E40E6ED0043399C /* Frameworks */,
 				214BAE5F1E40E6ED0043399C /* Resources */,
+				B147485C3CE7F7F052334DBB /* [CP] Embed Pods Frameworks */,
+				7B57E324D248244FAA85F9B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214BAE811E40E6EE0043399C /* Build configuration list for PBXNativeTarget "BowlingScoreCalcTests" */;
 			buildPhases = (
+				E7C7C2C72B1FB053151EEACA /* [CP] Check Pods Manifest.lock */,
 				214BAE711E40E6EE0043399C /* Sources */,
 				214BAE721E40E6EE0043399C /* Frameworks */,
 				214BAE731E40E6EE0043399C /* Resources */,
+				D949D41D5C105CE298DBE59F /* [CP] Embed Pods Frameworks */,
+				B5BB3572CAF4F176D9F85859 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B57E324D248244FAA85F9B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BowlingScoreCalc/Pods-BowlingScoreCalc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9005E5DFA046D6C0FB276F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B147485C3CE7F7F052334DBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BowlingScoreCalc/Pods-BowlingScoreCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5BB3572CAF4F176D9F85859 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BowlingScoreCalcTests/Pods-BowlingScoreCalcTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D949D41D5C105CE298DBE59F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BowlingScoreCalcTests/Pods-BowlingScoreCalcTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C7C2C72B1FB053151EEACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		214BAE5D1E40E6ED0043399C /* Sources */ = {
@@ -337,6 +468,7 @@
 		};
 		214BAE7F1E40E6EE0043399C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D1ECB278FF284ECACF6BC8 /* Pods-BowlingScoreCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BowlingScoreCalc/Info.plist;
@@ -349,6 +481,7 @@
 		};
 		214BAE801E40E6EE0043399C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051C59E1F85AB30632FB937A /* Pods-BowlingScoreCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BowlingScoreCalc/Info.plist;
@@ -361,6 +494,7 @@
 		};
 		214BAE821E40E6EE0043399C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0609ACE2689D6E61AB4A17B7 /* Pods-BowlingScoreCalcTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,6 +509,7 @@
 		};
 		214BAE831E40E6EE0043399C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0BCBAEE4C96413C30220B5 /* Pods-BowlingScoreCalcTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
