@@ -18,15 +18,20 @@ class FrameTests: QuickSpec {
     override func spec() {
         describe("Frameの初期化のテスト") {
             it("初期化処理で値が設定されること") {
-                let firstPoint = 2
-                let secondPoint = 5
+                let firstScore = 2
+                let secondScore = 5
                 let frameNumber = 1
-                self.subject = Frame(firstPoint, secondPoint: secondPoint, frameNumber: frameNumber)
-                expect(self.subject?.firstPoint) == 2
-                expect(self.subject?.secondPoint) == 5
+                self.subject = Frame(firstScore, secondScore: secondScore, frameNumber: frameNumber)
+                expect(self.subject?.firstScore) == 2
+                expect(self.subject?.secondScore) == 5
                 expect(self.subject?.frameNumber) == 1
+                expect(self.subject?.frameScore) == 7
             }
-            
+        }
+        describe("フレームスコア算出のテスト") {
+            it("1投目のスコアと2投目のスコアから合計が算出されること") {
+                expect(self.subject?.calcFrameScore(2, secondScore: 3)) == 5
+            }
         }
         
     }

@@ -10,18 +10,22 @@ import Foundation
 
 /* ボーリングの各フレームのスコアとか持つクラス */
 class Frame {
-    var firstPoint: Int?
-    var secondPoint: Int?
+    // 1投目のスコア
+    var firstScore: Int?
+    var secondScore: Int?
     var frameNumber: Int?
+    var bonusScore: Int?
+    var frameScore: Int?
     
-    init(_ firstPoint: Int, secondPoint: Int, frameNumber: Int) {
+    init(_ firstScore: Int, secondScore: Int, frameNumber: Int) {
         // frameScoreを受取、frameScoreに格納してtotalScoreを一旦出す
-        self.firstPoint = firstPoint
-        self.secondPoint = secondPoint
+        self.firstScore = firstScore
+        self.secondScore = secondScore
         self.frameNumber = frameNumber
+        self.frameScore = calcFrameScore(firstScore, secondScore: secondScore)
     }
     
-    func calcFramePoint() {
-        
+    func calcFrameScore(_ firstScore: Int, secondScore: Int) -> Int {
+        return firstScore + secondScore
     }
 }
