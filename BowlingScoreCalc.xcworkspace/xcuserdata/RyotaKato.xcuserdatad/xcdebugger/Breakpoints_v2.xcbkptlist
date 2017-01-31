@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BowlingScoreCalcTests/ScoreCalcTests.swift"
+            timestampString = "507597072.97061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BowlingScoreCalcTests.ScoreCalcTests.__deallocating_deinit"
+                  moduleName = "BowlingScoreCalcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RyotaKato/Files/workspace/BowlingScoreCalc/BowlingScoreCalcTests/ScoreCalcTests.swift"
+                  timestampString = "507598061.252433"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BowlingScoreCalcTests.ScoreCalcTests.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; BowlingScoreCalcTests.ScoreCalcTests"
+                  moduleName = "BowlingScoreCalcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RyotaKato/Files/workspace/BowlingScoreCalc/BowlingScoreCalcTests/ScoreCalcTests.swift"
+                  timestampString = "507598061.260034"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BowlingScoreCalcTests.ScoreCalcTests.__allocating_init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; BowlingScoreCalcTests.ScoreCalcTests"
+                  moduleName = "BowlingScoreCalcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RyotaKato/Files/workspace/BowlingScoreCalc/BowlingScoreCalcTests/ScoreCalcTests.swift"
+                  timestampString = "507598061.262245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BowlingScoreCalcTests.ScoreCalcTests.init (selector : ObjectiveC.Selector) -&gt; BowlingScoreCalcTests.ScoreCalcTests"
+                  moduleName = "BowlingScoreCalcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RyotaKato/Files/workspace/BowlingScoreCalc/BowlingScoreCalcTests/ScoreCalcTests.swift"
+                  timestampString = "507598061.26502"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BowlingScoreCalcTests.ScoreCalcTests.__allocating_init (selector : ObjectiveC.Selector) -&gt; BowlingScoreCalcTests.ScoreCalcTests"
+                  moduleName = "BowlingScoreCalcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RyotaKato/Files/workspace/BowlingScoreCalc/BowlingScoreCalcTests/ScoreCalcTests.swift"
+                  timestampString = "507598061.266625"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BowlingScoreCalcTests.ScoreCalcTests.init () -&gt; BowlingScoreCalcTests.ScoreCalcTests"
+                  moduleName = "BowlingScoreCalcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RyotaKato/Files/workspace/BowlingScoreCalc/BowlingScoreCalcTests/ScoreCalcTests.swift"
+                  timestampString = "507598061.268131"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BowlingScoreCalcTests.ScoreCalcTests.__allocating_init () -&gt; BowlingScoreCalcTests.ScoreCalcTests"
+                  moduleName = "BowlingScoreCalcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RyotaKato/Files/workspace/BowlingScoreCalc/BowlingScoreCalcTests/ScoreCalcTests.swift"
+                  timestampString = "507598061.269638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -8,12 +8,20 @@
 
 import Foundation
 
+/* ボーリングの各フレームのスコアとか持つクラス */
 class Frame {
-    var totalScore: Int?
-    var frameScore: String?
+    var firstPoint: Int?
+    var secondPoint: Int?
+    var frameNumber: Int?
     
-    init(frameScore: String) {
+    init(_ firstPoint: Int, secondPoint: Int, frameNumber: Int) {
         // frameScoreを受取、frameScoreに格納してtotalScoreを一旦出す
+        self.firstPoint = firstPoint
+        self.secondPoint = secondPoint
+        self.frameNumber = frameNumber
     }
     
+    func calcFramePoint() {
+        
+    }
 }
