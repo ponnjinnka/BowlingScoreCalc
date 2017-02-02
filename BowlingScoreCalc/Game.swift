@@ -1,5 +1,5 @@
 //
-//  FrameManager.swift
+//  Game.swift
 //  BowlingScoreCalc
 //
 //  Created by ryota on 2017/02/01.
