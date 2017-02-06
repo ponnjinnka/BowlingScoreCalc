@@ -11,11 +11,14 @@ import Foundation
 /* 複数のフレームから成り立つボウリングの1ゲーム */
 class Game {
     
-    var frames: [Frame]?
-    var totalFrameCount: Int?
+    var frames =  [Frame]()
+    var totalFrameCount = 0
     
-    func addFrame() {
-        
+    func addFrame(_ firstScore: Int, secondScore: Int) {
+        let frame = Frame(firstScore, secondScore:
+            secondScore,frameNumber: totalFrameCount)
+        frames.append(frame)
+        totalFrameCount += 1
     }
     
 }
