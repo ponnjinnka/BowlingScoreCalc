@@ -33,6 +33,19 @@ class FrameTests: QuickSpec {
                 expect(self.subject?.calcFrameScore(2, secondScore: 3)) == 5
             }
         }
-        
+        describe("フレーム結果判定のテスト") {
+            it("1投目が10点のときに結果がストライクになること") {
+                expect(self.subject?.judgeResult(10, secondScore: 0)) == Result.strike
+            }
+            it("1投目と2投目が合わせて10点のときにスペアになること") {
+                expect(self.subject?.judgeResult(4, secondScore: 6)) == Result.spare
+            }
+            it("1投目、2投目ともに0点のときにノーマルになること") {
+                expect(self.subject?.judgeResult(0, secondScore: 0)) == Result.normal
+            }
+            it("1投目が10点ではなく、2投目との合計も10点でない場合にノーマルになること") {
+                expect(self.subject?.judgeResult(8, secondScore: 1)) == Result.normal
+            }
+        }
     }
 }

@@ -16,6 +16,7 @@ class Frame {
     var frameNumber: Int?
     var bonusScore: Int?
     var frameScore: Int?
+    var result: Result?
     
     init(_ firstScore: Int, secondScore: Int, frameNumber: Int) {
         // frameScoreを受取、frameScoreに格納してtotalScoreを一旦出す
@@ -23,9 +24,21 @@ class Frame {
         self.secondScore = secondScore
         self.frameNumber = frameNumber
         self.frameScore = calcFrameScore(firstScore, secondScore: secondScore)
+        self.result = judgeResult(firstScore, secondScore: secondScore)
     }
     
     func calcFrameScore(_ firstScore: Int, secondScore: Int) -> Int {
         return firstScore + secondScore
+    }
+    
+    // 1フレームの結果を判定する
+    func judgeResult(_ firstScore: Int, secondScore: Int) -> Result {
+        if ( firstScore == 10) {
+            return Result.strike
+        } else if (firstScore + secondScore == 10) {
+            return Result.spare
+        } else {
+            return Result.normal
+        }
     }
 }

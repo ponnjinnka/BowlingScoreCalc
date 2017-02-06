@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+/* 複数のフレームから成り立つボウリングの1ゲーム */
+class Game {
+    
+}
