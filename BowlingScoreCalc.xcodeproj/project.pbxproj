@@ -19,6 +19,7 @@
 		2184E6891E4152260089A549 /* FrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184E6881E4152260089A549 /* FrameTests.swift */; };
 		2184E68B1E4154220089A549 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184E68A1E4154220089A549 /* Game.swift */; };
 		21DBC2721E48AAA10099BF02 /* BowlingCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DBC2711E48AAA10099BF02 /* BowlingCode.swift */; };
+		21DBC2741E48B2770099BF02 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DBC2731E48B2770099BF02 /* GameTests.swift */; };
 		50AAFF81B6A3F459BB640801 /* Pods_BowlingScoreCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D591677103AD52BA0850C04 /* Pods_BowlingScoreCalc.framework */; };
 		5970E553022C4F0735479DE0 /* Pods_BowlingScoreCalcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78414370A129BDBE5167E12 /* Pods_BowlingScoreCalcTests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		2184E6881E4152260089A549 /* FrameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameTests.swift; sourceTree = "<group>"; };
 		2184E68A1E4154220089A549 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		21DBC2711E48AAA10099BF02 /* BowlingCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowlingCode.swift; sourceTree = "<group>"; };
+		21DBC2731E48B2770099BF02 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		23D1ECB278FF284ECACF6BC8 /* Pods-BowlingScoreCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BowlingScoreCalc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BowlingScoreCalc/Pods-BowlingScoreCalc.debug.xcconfig"; sourceTree = "<group>"; };
 		3D591677103AD52BA0850C04 /* Pods_BowlingScoreCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BowlingScoreCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78414370A129BDBE5167E12 /* Pods_BowlingScoreCalcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BowlingScoreCalcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 				214BAE7B1E40E6EE0043399C /* Info.plist */,
 				2184E6861E4150210089A549 /* ScoreCalcTests.swift */,
 				2184E6881E4152260089A549 /* FrameTests.swift */,
+				21DBC2731E48B2770099BF02 /* GameTests.swift */,
 			);
 			path = BowlingScoreCalcTests;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				2184E6891E4152260089A549 /* FrameTests.swift in Sources */,
 				214BAE7A1E40E6EE0043399C /* BowlingScoreCalcTests.swift in Sources */,
 				2184E6871E4150210089A549 /* ScoreCalcTests.swift in Sources */,
+				21DBC2741E48B2770099BF02 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
