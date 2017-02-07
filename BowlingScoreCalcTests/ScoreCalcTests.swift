@@ -24,6 +24,17 @@ class ScoreCalcTests: QuickSpec {
                 let totalScore = self.subject?.calcTotalScore(scoreSheet)
                 expect(totalScore) == 27
             }
+            it("すべてストライクの場合の合計が算出できること") {
+                let scoreSheet = "XXXXX"
+                let totalScore = self.subject?.calcTotalScore(scoreSheet)
+                expect(totalScore) == 150
+            }
+            it("スペアが含まれる場合の合計が算出できること") {
+                let scoreSheet = "1X345X6X81"
+                let totalScore = self.subject?.calcTotalScore(scoreSheet)
+                expect(totalScore) == 63
+            }
+
         }
     }
 }
