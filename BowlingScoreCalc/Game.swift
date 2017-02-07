@@ -14,11 +14,19 @@ class Game {
     var frames =  [Frame]()
     var totalFrameCount = 0
     
-    func addFrame(_ firstScore: Int, secondScore: Int) {
-        let frame = Frame(firstScore, secondScore:
-            secondScore,frameNumber: totalFrameCount)
+    func addFrame() {
+        let frame = Frame()
         frames.append(frame)
         totalFrameCount += 1
+        frame.addFrameNumber(totalFrameCount)
+    }
+    
+    func addFirstScore(_ firstScore: Int) {
+        frames.last?.addFirstScore(firstScore)
+    }
+    
+    func addSecondScore(_ secondScore: Int) {
+        frames.last?.addSecondScore(secondScore)
     }
     
 }

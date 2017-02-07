@@ -15,30 +15,37 @@ class Frame {
     var secondScore: Int?
     var frameNumber: Int?
     var bonusScore: Int?
-    var frameScore: Int?
+    var frameScore: Int!
     var result: Result?
     
-    init(_ firstScore: Int, secondScore: Int, frameNumber: Int) {
-        // frameScoreを受取、frameScoreに格納してtotalScoreを一旦出す
+    func addFirstScore(_ firstScore: Int) {
         self.firstScore = firstScore
+    }
+    
+    func addSecondScore(_ secondScore: Int) {
         self.secondScore = secondScore
+    }
+    
+    func calcFrameScore() {
+        self.frameScore = self.firstScore! + self.secondScore!
+    }
+    
+    func addFrameNumber(_ frameNumber: Int) {
         self.frameNumber = frameNumber
-        self.frameScore = calcFrameScore(firstScore, secondScore: secondScore)
-        self.result = judgeResult(firstScore, secondScore: secondScore)
     }
-    
-    func calcFrameScore(_ firstScore: Int, secondScore: Int) -> Int {
-        return firstScore + secondScore
-    }
-    
     // 1フレームの結果を判定する
-    func judgeResult(_ firstScore: Int, secondScore: Int) -> Result {
+    func judgeResult() {
         if ( firstScore == 10) {
-            return Result.strike
-        } else if (firstScore + secondScore == 10) {
-            return Result.spare
+            self.result = Result.strike
+        } else if (self.firstScore! + self.secondScore! >= 10) {
+            self.result = Result.spare
+            self.secondScore = 10 - self.firstScore!
         } else {
-            return Result.normal
+            self.result = Result.normal
         }
+    }
+    
+    func calcBonusScore(_ firstBonus: Int, secondBonus: Int) {
+        self.bonusScore =  firstBonus + secondBonus
     }
 }

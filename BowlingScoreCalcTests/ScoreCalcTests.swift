@@ -15,8 +15,15 @@ class ScoreCalcTests: QuickSpec {
     var subject: ScoreCalc?
     
     override func spec() {
-        describe("") {
-            
+        describe("スコア計算処理のテスト") {
+            beforeEach {
+                self.subject = ScoreCalc()
+            }
+            it("ストライクもスペアも存在しないスコアを渡すとすべての合計値となること") {
+                let scoreSheet = "1234543212"
+                let totalScore = self.subject?.calcTotalScore(scoreSheet)
+                expect(totalScore) == 27
+            }
         }
     }
 }
